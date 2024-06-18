@@ -12,11 +12,11 @@
 	}
 
 	.nav-title-sidebar {
-		@apply text-green-900 font-bold;
+		@apply text-green-800 opacity-70 font-bold;
 	}
 
 	.li-sidebar {
-		@apply hover:bg-white hover:bg-opacity-40 hover:backdrop-blur-md rounded-xl px-2 py-4 flex justify-between items-center cursor-pointer;
+		@apply hover:bg-green-200 hover:bg-opacity-40 hover:backdrop-blur-md rounded-xl px-2 py-4 flex justify-between items-center cursor-pointer;
 	}
 
 	.li-span-sidebar {
@@ -29,5 +29,21 @@
 
 	.section-title {
 		@apply text-2xl font-bold text-green-900 max-sm:text-center;
+	}
+
+	.pharmacy-info {
+		@apply p-2 text-sm leading-loose hover:bg-gray-300 hover:bg-opacity-60 rounded-xl;
+	}
+
+	.footer-nav-title {
+		@apply uppercase opacity-50 font-bold tracking-widest text-sm sm:text-base;
+	}
+
+	.footer-nav-content {
+		@apply flex justify-between items-center p-1 font-thin text-sm cursor-pointer hover:bg-gray-200 hover:bg-opacity-20 duration-200 rounded-full;
+	}
+
+	.footer-social-media-icon {
+		@apply w-10 h-10 cursor-pointer opacity-65 hover:scale-125 hover:opacity-100 duration-200;
 	}
 }

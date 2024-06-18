@@ -69,7 +69,7 @@ export default function Header() {
 					initial={"closed"}
 					animate={sidebarControls}
 					transition={{ duration: 1 }}
-					className="fixed z-10 top-0 left-0 w-full sm:w-96 h-full bg-green-100 bg-opacity-60 backdrop-blur-md"
+					className="fixed z-10 top-0 left-0 w-full sm:w-96 h-full bg-white"
 				>
 					<Image
 						src={closeIcon}

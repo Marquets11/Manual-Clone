@@ -19,19 +19,16 @@ export default function BenefitsCards() {
 				iconCard={FaBoxOpen}
 				normalFontText="Entrega"
 				boldFontText="rápida e gratuita."
-				delayToAnimate={0.3}
 			/>
 			<BenefitCardLayout
 				iconCard={FaHistory}
 				normalFontText="Planos flexíveis."
 				boldFontText="Cancele quando quiser."
-				delayToAnimate={0.6}
 			/>
 			<BenefitCardLayout
 				iconCard={FaRegComments}
 				normalFontText="Acompanhamento"
 				boldFontText="clínico."
-				delayToAnimate={0.9}
 			/>
 		</section>
 	);
